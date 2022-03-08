@@ -8,9 +8,6 @@ $scriptUrl = "https://".$_SERVER["HTTP_HOST"].$_SERVER["SCRIPT_NAME"];
 // Email "subject"
 $title = 'New message from my Landing page';
 // Email field "From" - name of sender (e.g. your first & last name)
-$from_name = "John Jonson";
-// Email field "From" - email of sender (e.g. "robot@domain.com")
-$from_email = "robot@domain.com";
 // Email to receive message - PUT YOUR EMAIL HERE (or leave it blank if you won't receive emails)
 $to = ""; // e.g. my@email.com"
 // Telegram integration: token of created bot
